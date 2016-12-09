@@ -15,8 +15,6 @@
   position: absolute;
   top: 20%;
   @media screen and #{$break-small} {
-    top: 50%;
+    top: 40%;
   }
-
-
 }

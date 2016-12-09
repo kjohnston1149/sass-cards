@@ -6,8 +6,14 @@
   left: 25%;
   @include button($color3);
   text-align: center;
+  @media screen and #{$break-medium} {
 
-  border-radius: 10%;
+    left: 30%;
+  }
+  @media screen and #{$break-small} {
+    top: 80%;
+    left: 30%;
+  }
 
 
 }
