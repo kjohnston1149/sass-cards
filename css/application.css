@@ -4,6 +4,23 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.main-card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  border: 1px solid black; }
+  .main-card:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 600px) {
+    .main-card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main-card:last-child {
+        margin-right: 0; } }
+
 h1 {
   color: #598392;
   font-size: 3em; }
