@@ -1,4 +1,6 @@
-%main-card {}
+%main-card {
+  padding: 10px;
+}
 
 %textbox {
   color: $color3;
@@ -6,8 +8,6 @@
 }
 
 %background-format {
-  width: 100%;
-  height: 100%;
   display: block;
   position: relative;
 }

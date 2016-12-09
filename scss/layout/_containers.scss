@@ -4,9 +4,10 @@
 
 .main-card {
   @include span-columns(3);
+  @extend %main-card;
   position: relative;
   min-height: 40vh;
-  max-width: 23.23176%;
+
   border: 1px solid black;
 
 
@@ -19,12 +20,10 @@
 
 }
 .card-1 {
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: relative;
-  background-color: rgba($color1, .5);
+  @extend %background-format;
+
   &::after {
+
     @include background-img("../img/bottlenose.jpg");
     // content: "";
     // background: url("../img/bottlenose.jpg");
