@@ -4,14 +4,33 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
+
 .main-card {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
+  position: relative;
+  min-height: 40vh;
   border: 1px solid black; }
   .main-card:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 800px) {
+    .main-card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .main-card:last-child {
+        margin-right: 0; } }
   @media screen and (max-width: 600px) {
     .main-card {
       float: left;
