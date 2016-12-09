@@ -4,6 +4,9 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+* {
+  margin: 0; }
+
 h1 {
   color: #01161E;
   font-size: 3em; }
@@ -104,6 +107,10 @@ h2 {
   position: absolute;
   z-index: -1; }
 
+[class*='inner-text-'] {
+  background: rgba(0, 77, 107, 0.5);
+  padding: 5px; }
+
 .main-card {
   padding: 10px;
   position: relative;
@@ -112,5 +119,12 @@ h2 {
 .card-1, .card-2, .card-3, .card-4 {
   display: block;
   position: relative; }
+
+[class*='inner-text-'] {
+  position: absolute;
+  top: 20%; }
+  @media screen and (max-width: 650px) {
+    [class*='inner-text-'] {
+      top: 50%; } }
 
 /*# sourceMappingURL=application.css.map */
