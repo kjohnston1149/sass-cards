@@ -1,0 +1,13 @@
+[class*="button-"] {
+  position: absolute;
+  top: 75%;
+  // left: 50%;
+  right: 25%;
+  left: 25%;
+  @include button($color3);
+  text-align: center;
+
+  border-radius: 10%;
+
+
+}

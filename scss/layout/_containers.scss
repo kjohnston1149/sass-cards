@@ -5,11 +5,12 @@
 .main-card {
   @include span-columns(3);
   @extend %main-card;
-  min-height: 40vh;
-  border: 1px solid black;
+  min-height: 43vh;
+
+
 
   @media screen and #{$break-medium} {
-    @include span-columns(5 of 12);
+    @include span-columns(6 of 12);
     margin: 0;
   }
   @media screen and #{$break-small} {
@@ -44,12 +45,12 @@
 }
 
 [class*='inner-text-'] {
-  background: transparentize($color-2-saturate, 0.5);
+  background: transparentize($color-2-saturate, 0.3);
   padding: 5px;
   @extend %inner-txt-pos;
 
 }
 @for $i from 1 through length($colors) {
-  
+
 
 }
