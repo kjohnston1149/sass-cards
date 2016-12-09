@@ -1,4 +1,4 @@
-# _4 Color Cards_
+# _Sass Cards_
 
 #### _A template based off of the Treehouse tutorial, December 9 2016_
 

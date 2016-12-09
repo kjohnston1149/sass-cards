@@ -5,3 +5,12 @@ $color3: #598392;
 $color4: #AEC3B0;
 
 $colors: $color1, $color2, $color3, $color4;
+
+$text-color-dark: $color1;
+$text-color-light: lighten($color1, 5%);
+$color-2-saturate: saturate($color2, 50%);
+
+//==media query breakpoints==
+$break-medium: '(max-width: 1050px)';
+
+$break-small:  '(max-width: 650px)';
