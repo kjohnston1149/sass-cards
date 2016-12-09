@@ -4,4 +4,8 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+h1 {
+  color: #598392;
+  font-size: 3em; }
+
 /*# sourceMappingURL=application.css.map */
