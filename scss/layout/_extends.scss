@@ -4,3 +4,10 @@
   color: $color3;
   font-size: 3em;
 }
+
+%background-format {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
