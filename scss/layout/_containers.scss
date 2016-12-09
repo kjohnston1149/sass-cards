@@ -5,13 +5,12 @@
 .main-card {
   @include span-columns(3);
   @extend %main-card;
-  position: relative;
   min-height: 40vh;
 
   border: 1px solid black;
 
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 950px) {
     @include span-columns(5 of 12);
   }
   @media screen and (max-width: 600px) {
@@ -21,21 +20,25 @@
 }
 .card-1 {
   @extend %background-format;
-
   &::after {
-
     @include background-img("../img/bottlenose.jpg");
-    // content: "";
-    // background: url("../img/bottlenose.jpg");
-    //
-    // opacity: 0.5;
-    // top: 0;
-    // left: 0;
-    // bottom: 0;
-    // right: 0;
-    // position: absolute;
-    // z-index: -1;
-
   }
-
+}
+.card-2 {
+  @extend %background-format;
+  &::after {
+    @include background-img("../img/center-dolphin.jpg");
+  }
+}
+.card-3 {
+  @extend %background-format;
+  &::after {
+    @include background-img("../img/dolphins-3.jpg");
+  }
+}
+.card-4 {
+  @extend %background-format;
+  &::after {
+    @include background-img("../img/boobies.jpg");
+  }
 }
