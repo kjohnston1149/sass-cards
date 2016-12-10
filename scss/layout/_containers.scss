@@ -1,5 +1,6 @@
 .wrapper {
   @include outer-container(100%);
+  margin-left: 5px;
 }
 
 .main-card {
@@ -49,11 +50,9 @@
   .card-#{$i} {
     background: transparentize((nth($colors, $i)), 0.5);
   }
-}
-
-[class*='inner-text-'] {
-  background: transparentize($color-2-saturate, 0.3);
-  padding: 5px;
-  @extend %inner-txt-pos;
-
+  .inner-text-#{$i} {
+    background: transparentize((nth($colors, $i)), 0.3);
+    padding: 5px;
+    @extend %inner-txt-pos;
+  }
 }

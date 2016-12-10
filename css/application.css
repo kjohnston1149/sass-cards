@@ -11,8 +11,7 @@ body {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 5px; }
+  background-attachment: fixed; }
 
 h1 {
   color: #01161E;
@@ -32,7 +31,8 @@ h2 {
 .wrapper {
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-left: 5px; }
   .wrapper::after {
     clear: both;
     content: "";
@@ -125,17 +125,29 @@ h2 {
 .card-1 {
   background: rgba(1, 22, 30, 0.5); }
 
+.inner-text-1 {
+  background: rgba(1, 22, 30, 0.7);
+  padding: 5px; }
+
 .card-2 {
   background: rgba(18, 69, 89, 0.5); }
+
+.inner-text-2 {
+  background: rgba(18, 69, 89, 0.7);
+  padding: 5px; }
 
 .card-3 {
   background: rgba(89, 131, 146, 0.5); }
 
+.inner-text-3 {
+  background: rgba(89, 131, 146, 0.7);
+  padding: 5px; }
+
 .card-4 {
   background: rgba(174, 195, 176, 0.5); }
 
-[class*='inner-text-'] {
-  background: rgba(0, 77, 107, 0.7);
+.inner-text-4 {
+  background: rgba(174, 195, 176, 0.7);
   padding: 5px; }
 
 .main-card {
@@ -145,11 +157,11 @@ h2 {
   display: block;
   position: relative; }
 
-[class*='inner-text-'] {
+.inner-text-1, .inner-text-2, .inner-text-3, .inner-text-4 {
   position: absolute;
   top: 20%; }
   @media screen and (max-width: 653px) {
-    [class*='inner-text-'] {
+    .inner-text-1, .inner-text-2, .inner-text-3, .inner-text-4 {
       top: 40%; } }
 
 body {
