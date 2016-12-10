@@ -22,7 +22,7 @@ h2 {
   color: #022837; }
 
 .main-header {
-  background: rgba(89, 131, 146, 0.75);
+  background: rgba(128, 128, 128, 0.75);
   width: 100vw;
   margin-bottom: 5px;
   text-align: center; }
@@ -121,6 +121,18 @@ h2 {
   right: 0;
   position: absolute;
   z-index: -1; }
+
+.card-1 {
+  background: rgba(1, 22, 30, 0.5); }
+
+.card-2 {
+  background: rgba(18, 69, 89, 0.5); }
+
+.card-3 {
+  background: rgba(89, 131, 146, 0.5); }
+
+.card-4 {
+  background: rgba(174, 195, 176, 0.5); }
 
 [class*='inner-text-'] {
   background: rgba(0, 77, 107, 0.7);
