@@ -31,8 +31,7 @@ h2 {
 .wrapper {
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  margin-left: 5px; }
+  margin-right: auto; }
   .wrapper::after {
     clear: both;
     content: "";
@@ -65,6 +64,42 @@ h2 {
       margin: 0; }
       .main-card:last-child {
         margin-right: 0; } }
+
+.card-1 {
+  background: rgba(1, 22, 30, 0.5); }
+
+.inner-text-1 {
+  background: rgba(1, 22, 30, 0.7);
+  padding: 5px; }
+  .inner-text-1 h2 {
+    color: white; }
+
+.card-2 {
+  background: rgba(18, 69, 89, 0.5); }
+
+.inner-text-2 {
+  background: rgba(18, 69, 89, 0.7);
+  padding: 5px; }
+  .inner-text-2 h2 {
+    color: white; }
+
+.card-3 {
+  background: rgba(89, 131, 146, 0.5); }
+
+.inner-text-3 {
+  background: rgba(89, 131, 146, 0.7);
+  padding: 5px; }
+  .inner-text-3 h2 {
+    color: white; }
+
+.card-4 {
+  background: rgba(174, 195, 176, 0.5); }
+
+.inner-text-4 {
+  background: rgba(174, 195, 176, 0.7);
+  padding: 5px; }
+  .inner-text-4 h2 {
+    color: white; }
 
 .card-1::after {
   content: "";
@@ -121,34 +156,6 @@ h2 {
   right: 0;
   position: absolute;
   z-index: -1; }
-
-.card-1 {
-  background: rgba(1, 22, 30, 0.5); }
-
-.inner-text-1 {
-  background: rgba(1, 22, 30, 0.7);
-  padding: 5px; }
-
-.card-2 {
-  background: rgba(18, 69, 89, 0.5); }
-
-.inner-text-2 {
-  background: rgba(18, 69, 89, 0.7);
-  padding: 5px; }
-
-.card-3 {
-  background: rgba(89, 131, 146, 0.5); }
-
-.inner-text-3 {
-  background: rgba(89, 131, 146, 0.7);
-  padding: 5px; }
-
-.card-4 {
-  background: rgba(174, 195, 176, 0.5); }
-
-.inner-text-4 {
-  background: rgba(174, 195, 176, 0.7);
-  padding: 5px; }
 
 .main-card {
   position: relative; }

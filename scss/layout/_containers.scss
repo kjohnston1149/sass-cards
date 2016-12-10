@@ -1,6 +1,7 @@
 .wrapper {
   @include outer-container(100%);
-  margin-left: 5px;
+
+
 }
 
 .main-card {
@@ -8,8 +9,6 @@
   @extend %main-card;
   min-height: 43vh;
   color: white;
-
-
 
   @media screen and #{$break-medium} {
     @include span-columns(6 of 12);
@@ -20,6 +19,19 @@
     margin: 0;
   }
 
+}
+@for $i from 1 through length($colors) {
+  .card-#{$i} {
+    background: transparentize((nth($colors, $i)), 0.5);
+  }
+  .inner-text-#{$i} {
+    background: transparentize((nth($colors, $i)), 0.3);
+    padding: 5px;
+    @extend %inner-txt-pos;
+    h2 {
+      color: white;
+    }
+  }
 }
 .card-1 {
   @extend %background-format;
@@ -43,16 +55,5 @@
   @extend %background-format;
   &::after {
     @include background-img("../img/boobies.jpg");
-  }
-}
-
-@for $i from 1 through length($colors) {
-  .card-#{$i} {
-    background: transparentize((nth($colors, $i)), 0.5);
-  }
-  .inner-text-#{$i} {
-    background: transparentize((nth($colors, $i)), 0.3);
-    padding: 5px;
-    @extend %inner-txt-pos;
   }
 }
