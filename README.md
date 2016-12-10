@@ -1,6 +1,6 @@
-# _Sass Cards_
+# _Dolphin Cards_
 
-#### _A template based off of the Treehouse tutorial, December 9 2016_
+#### _An exercise with Sass and Bourbon, December 9 2016_
 
 #### By _**Kevin Johnston**_
 
