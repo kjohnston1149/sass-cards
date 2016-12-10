@@ -1,0 +1,10 @@
+.main-header {
+  background: transparentize($color3, 0.25);
+  width: 100vw;
+  margin-bottom: 5px;
+  text-align: center;
+  h1, h2 {
+    color: white;
+  }
+
+}

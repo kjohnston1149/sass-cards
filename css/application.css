@@ -21,6 +21,14 @@ h1 {
 h2 {
   color: #022837; }
 
+.main-header {
+  background: rgba(89, 131, 146, 0.75);
+  width: 100vw;
+  margin-bottom: 5px;
+  text-align: center; }
+  .main-header h1, .main-header h2 {
+    color: white; }
+
 .wrapper {
   max-width: 100%;
   margin-left: auto;
@@ -132,6 +140,15 @@ h2 {
     [class*='inner-text-'] {
       top: 40%; } }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
+button {
+  font-family: 'Open Sans', sans-serif; }
+
+.main-header {
+  font-family: 'Open Sans', sans-serif; }
+
 [class*="button-"] {
   position: absolute;
   top: 75%;
@@ -170,6 +187,6 @@ h2 {
   @media screen and (max-width: 653px) {
     [class*="button-"] {
       top: 80%;
-      left: 30%; } }
+      left: 35%; } }
 
 /*# sourceMappingURL=application.css.map */
