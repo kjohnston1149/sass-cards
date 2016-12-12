@@ -66,7 +66,7 @@ h2 {
   color: white; }
   .main-card:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 1275px) {
+  @media screen and (max-width: 1000px) {
     .main-card {
       float: left;
       display: block;
@@ -206,7 +206,7 @@ button {
   right: 25%;
   left: 25%;
   text-align: center; }
-  @media screen and (max-width: 1275px) {
+  @media screen and (max-width: 1000px) {
     [class*="button-"] {
       left: 30%; } }
   @media screen and (max-width: 653px) {

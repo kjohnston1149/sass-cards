@@ -11,6 +11,6 @@ $text-color-light: lighten($color1, 5%);
 $color-2-saturate: saturate($color2, 50%);
 
 //==media query breakpoints==
-$break-medium: '(max-width: 1275px)';
+$break-medium: '(max-width: 1000px)';
 
 $break-small:  '(max-width: 653px)';
