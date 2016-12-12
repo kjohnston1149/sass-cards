@@ -1,10 +1,40 @@
 .main-header {
-  background: transparentize(grey, 0.25);
+
+  // @include span-columns(12);
+  background: transparentize($color1, 0.1);
   width: 100vw;
-  margin-bottom: 5px;
-  text-align: center;
-  h1, h2 {
-    color: white;
+  @include clearfix;
+
+
+}
+
+.navbar {
+
+
+  @include direction-context($direction: left-to-right) {
+    &-left{
+      margin-left: 10px;
+      h1, h2 {
+        @include span-columns(4);
+        color: white;
+      }
+    }
   }
+  @include direction-context($direction: right-to-left) {
+    &-right{
+      float: right;
+      display: inline;
+      margin-right: 10px;
+      a{
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: $color4;
+        }
+      }
+
+    }
+  }
+
 
 }

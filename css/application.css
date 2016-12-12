@@ -21,12 +21,32 @@ h2 {
   color: #022837; }
 
 .main-header {
-  background: rgba(128, 128, 128, 0.75);
-  width: 100vw;
-  margin-bottom: 5px;
-  text-align: center; }
-  .main-header h1, .main-header h2 {
+  background: rgba(1, 22, 30, 0.9);
+  width: 100vw; }
+  .main-header::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.navbar-left {
+  margin-left: 10px; }
+  .navbar-left h1, .navbar-left h2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
     color: white; }
+    .navbar-left h1:last-child, .navbar-left h2:last-child {
+      margin-right: 0; }
+.navbar-right {
+  float: right;
+  display: inline;
+  margin-right: 10px; }
+  .navbar-right a {
+    color: white;
+    text-decoration: none; }
+    .navbar-right a:hover {
+      color: #AEC3B0; }
 
 .wrapper {
   max-width: 100%;
